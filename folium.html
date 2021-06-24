@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bf73b1d1091f4b1e940ac06c90338458 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_bf73b1d1091f4b1e940ac06c90338458" ></div>
+        
+</body>
+<script>    
+    
+            var map_bf73b1d1091f4b1e940ac06c90338458 = L.map(
+                "map_bf73b1d1091f4b1e940ac06c90338458",
+                {
+                    center: [40.8448, -73.8648],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8eeffc702ce5486aa4d53fdf2ea40add = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+            var marker_fbf8ac6fecf14fc2a340cca005cfc661 = L.marker(
+                [40.7202213, -73.891748],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_2919dddf412a42818d4abc3220a6c74f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9fe15f9664054d76b10df58625ff0d1e = $(`<div id="html_9fe15f9664054d76b10df58625ff0d1e" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 11379.0  Buisness Name: Banana King  Pandemic Assitance:PPP loan, SBA loan </p></div>`)[0];
+            popup_2919dddf412a42818d4abc3220a6c74f.setContent(html_9fe15f9664054d76b10df58625ff0d1e);
+        
+
+        marker_fbf8ac6fecf14fc2a340cca005cfc661.bindPopup(popup_2919dddf412a42818d4abc3220a6c74f)
+        ;
+
+        
+    
+    
+            var marker_73ff5ed46a1543a1996db63ab04649f5 = L.marker(
+                [38.341087291051004, -120.76151417976253],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_4fe0c1e977b84d97aff141bb7a9dbfeb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24456c51e1f04d78a44190e4dc8ef6ff = $(`<div id="html_24456c51e1f04d78a44190e4dc8ef6ff" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 10001.0  Buisness Name: TTD  Pandemic Assitance:SBA loan </p></div>`)[0];
+            popup_4fe0c1e977b84d97aff141bb7a9dbfeb.setContent(html_24456c51e1f04d78a44190e4dc8ef6ff);
+        
+
+        marker_73ff5ed46a1543a1996db63ab04649f5.bindPopup(popup_4fe0c1e977b84d97aff141bb7a9dbfeb)
+        ;
+
+        
+    
+    
+            var marker_00411d8d17c14c0fa2d46c21ee68f745 = L.marker(
+                [40.7558228, -73.9787965],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_8436fb28fae847c3a4ee0b644a25dbbc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a05cacffeab46898f56f515f7d18f35 = $(`<div id="html_4a05cacffeab46898f56f515f7d18f35" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 10487.0  Buisness Name: Live Music, Inc  Pandemic Assitance:I did not apply </p></div>`)[0];
+            popup_8436fb28fae847c3a4ee0b644a25dbbc.setContent(html_4a05cacffeab46898f56f515f7d18f35);
+        
+
+        marker_00411d8d17c14c0fa2d46c21ee68f745.bindPopup(popup_8436fb28fae847c3a4ee0b644a25dbbc)
+        ;
+
+        
+    
+    
+            var marker_434cf297afca422da8033492ab001388 = L.marker(
+                [-33.8323426, 151.0501514],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_5fa9933b41d34afba3e0df81c449fdee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4792da1686b7493c8a16e7d23a0524d3 = $(`<div id="html_4792da1686b7493c8a16e7d23a0524d3" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 10451.0  Buisness Name: Dunder Mifflin  Pandemic Assitance:PPP loan, Economic Disaster Loan </p></div>`)[0];
+            popup_5fa9933b41d34afba3e0df81c449fdee.setContent(html_4792da1686b7493c8a16e7d23a0524d3);
+        
+
+        marker_434cf297afca422da8033492ab001388.bindPopup(popup_5fa9933b41d34afba3e0df81c449fdee)
+        ;
+
+        
+    
+    
+            var marker_73aeff43d6d7437397bb654756acf736 = L.marker(
+                [40.87382886206896, -73.88507010344827],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_ca1b9ace4ff84902ba37b159f73336a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f78a8a4b1ed488cb97775546bf0518d = $(`<div id="html_8f78a8a4b1ed488cb97775546bf0518d" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 10458.0  Buisness Name: Ka Wah Chinese   Pandemic Assitance:I did not apply </p></div>`)[0];
+            popup_ca1b9ace4ff84902ba37b159f73336a3.setContent(html_8f78a8a4b1ed488cb97775546bf0518d);
+        
+
+        marker_73aeff43d6d7437397bb654756acf736.bindPopup(popup_ca1b9ace4ff84902ba37b159f73336a3)
+        ;
+
+        
+    
+    
+            var marker_4f09241aacae420cad6f8477ea38cff9 = L.marker(
+                [33.283234, -82.95411],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_1a765e114c24481d9215e198b31efecb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ba4e6f7f2014bb0bed60932a9e91b44 = $(`<div id="html_4ba4e6f7f2014bb0bed60932a9e91b44" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 10024.0  Buisness Name: LR Multiservices   Pandemic Assitance:PPP loan, SBA loan </p></div>`)[0];
+            popup_1a765e114c24481d9215e198b31efecb.setContent(html_4ba4e6f7f2014bb0bed60932a9e91b44);
+        
+
+        marker_4f09241aacae420cad6f8477ea38cff9.bindPopup(popup_1a765e114c24481d9215e198b31efecb)
+        ;
+
+        
+    
+    
+            var marker_d8d80ab77c584b4fb346478c2e3ff17c = L.marker(
+                [40.5642535, -74.1335322],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_ffc896ea667e4f4b89496b8952574448 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_244c8831a5bd4027bcae51827685c9b1 = $(`<div id="html_244c8831a5bd4027bcae51827685c9b1" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 10305.0  Buisness Name: Novelli's Pork Store   Pandemic Assitance:I did apply and did not hear back </p></div>`)[0];
+            popup_ffc896ea667e4f4b89496b8952574448.setContent(html_244c8831a5bd4027bcae51827685c9b1);
+        
+
+        marker_d8d80ab77c584b4fb346478c2e3ff17c.bindPopup(popup_ffc896ea667e4f4b89496b8952574448)
+        ;
+
+        
+    
+    
+            var marker_00060267c2e24b459b0a365a6ea35f07 = L.marker(
+                [-26.1420094, 28.0890567],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_5d884f785b88452c9034022cf51635a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd977cbf79734c8f92145d0f7c2693c5 = $(`<div id="html_dd977cbf79734c8f92145d0f7c2693c5" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 11200.0  Buisness Name: Fei Long Supermarket   Pandemic Assitance:I did apply and did not hear back </p></div>`)[0];
+            popup_5d884f785b88452c9034022cf51635a5.setContent(html_dd977cbf79734c8f92145d0f7c2693c5);
+        
+
+        marker_00060267c2e24b459b0a365a6ea35f07.bindPopup(popup_5d884f785b88452c9034022cf51635a5)
+        ;
+
+        
+    
+    
+            var marker_325ff7396b084e6aa095589aad361ee2 = L.marker(
+                [40.85507885, -73.88724832896028],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_44384c8e64514ccb891358a4bc9b8314 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9051b9dd5794c51965afcbaf082f863 = $(`<div id="html_e9051b9dd5794c51965afcbaf082f863" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 10458.0  Buisness Name: Miss A Beauty Supply   Pandemic Assitance:Economic Disaster Loan </p></div>`)[0];
+            popup_44384c8e64514ccb891358a4bc9b8314.setContent(html_e9051b9dd5794c51965afcbaf082f863);
+        
+
+        marker_325ff7396b084e6aa095589aad361ee2.bindPopup(popup_44384c8e64514ccb891358a4bc9b8314)
+        ;
+
+        
+    
+    
+            var marker_ee0480b5d743466a8f87ba64468aa745 = L.marker(
+                [42.195183, -94.164762],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_f757e455e96149f0b71ad39439d02bca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf5decec0e0d48bb91970bd8642f9d5c = $(`<div id="html_cf5decec0e0d48bb91970bd8642f9d5c" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 10458.0  Buisness Name: Billy's Chimi Fritura   Pandemic Assitance:SBA loan </p></div>`)[0];
+            popup_f757e455e96149f0b71ad39439d02bca.setContent(html_cf5decec0e0d48bb91970bd8642f9d5c);
+        
+
+        marker_ee0480b5d743466a8f87ba64468aa745.bindPopup(popup_f757e455e96149f0b71ad39439d02bca)
+        ;
+
+        
+    
+    
+            var marker_590f375739be4cc3bcb7ac27eb0f09f9 = L.marker(
+                [38.60956458390216, -78.7895829203457],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_9b3e9f6ab427460a9822980ac7711824 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b66da614d077488b8436a704be967a89 = $(`<div id="html_b66da614d077488b8436a704be967a89" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 10013.0  Buisness Name: Mystique Boutique   Pandemic Assitance:I did apply and did not hear back </p></div>`)[0];
+            popup_9b3e9f6ab427460a9822980ac7711824.setContent(html_b66da614d077488b8436a704be967a89);
+        
+
+        marker_590f375739be4cc3bcb7ac27eb0f09f9.bindPopup(popup_9b3e9f6ab427460a9822980ac7711824)
+        ;
+
+        
+    
+    
+            var marker_735de9e073994e81a3d5cb7a005fda9f = L.marker(
+                [40.00457215, -105.26848519766696],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_ff1d33665f6b4857863509cd99099970 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24648bf8f1544670b63ae17290ebaff5 = $(`<div id="html_24648bf8f1544670b63ae17290ebaff5" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 11207.0  Buisness Name: PhotoDom   Pandemic Assitance:SBA loan </p></div>`)[0];
+            popup_ff1d33665f6b4857863509cd99099970.setContent(html_24648bf8f1544670b63ae17290ebaff5);
+        
+
+        marker_735de9e073994e81a3d5cb7a005fda9f.bindPopup(popup_ff1d33665f6b4857863509cd99099970)
+        ;
+
+        
+    
+    
+            var marker_e76d965810f5409991d2bcee8d479af5 = L.marker(
+                [40.603267349999996, -74.14021813838573],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_bd4245813bbd4041951d06b0de1527da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e88bef516c944d2b80ec25f8b4ec47b = $(`<div id="html_0e88bef516c944d2b80ec25f8b4ec47b" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 10314.0  Buisness Name: Staten Island Dental Group   Pandemic Assitance:I did not apply </p></div>`)[0];
+            popup_bd4245813bbd4041951d06b0de1527da.setContent(html_0e88bef516c944d2b80ec25f8b4ec47b);
+        
+
+        marker_e76d965810f5409991d2bcee8d479af5.bindPopup(popup_bd4245813bbd4041951d06b0de1527da)
+        ;
+
+        
+    
+    
+            var marker_8e85f70486c24a99a56fd655229e14c4 = L.marker(
+                [40.74264445, -73.81378115208334],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_a51bb5d03527492a8901416d258441bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9362ab130dd46ec99c944196f7d6ec8 = $(`<div id="html_a9362ab130dd46ec99c944196f7d6ec8" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 11355.0  Buisness Name: Marisol's Little Angels Daycare  Pandemic Assitance:SBA loan </p></div>`)[0];
+            popup_a51bb5d03527492a8901416d258441bd.setContent(html_a9362ab130dd46ec99c944196f7d6ec8);
+        
+
+        marker_8e85f70486c24a99a56fd655229e14c4.bindPopup(popup_a51bb5d03527492a8901416d258441bd)
+        ;
+
+        
+    
+    
+            var marker_664e4d32d3cb4ad9bdd8b12dc4a8dc9a = L.marker(
+                [40.68612824143304, -73.39358251504953],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_27fe3d63e5e14a7a8486de7f48cf62c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b13e2a42b5384bba9461e8f068f4a8f7 = $(`<div id="html_b13e2a42b5384bba9461e8f068f4a8f7" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 11101.0  Buisness Name: Queensbridge Day Care Center   Pandemic Assitance:Economic Disaster Loan, I did apply and did not hear back </p></div>`)[0];
+            popup_27fe3d63e5e14a7a8486de7f48cf62c6.setContent(html_b13e2a42b5384bba9461e8f068f4a8f7);
+        
+
+        marker_664e4d32d3cb4ad9bdd8b12dc4a8dc9a.bindPopup(popup_27fe3d63e5e14a7a8486de7f48cf62c6)
+        ;
+
+        
+    
+    
+            var marker_ed37a198704e463abee6333cce1ea82e = L.marker(
+                [40.8699546, -73.8456102],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_9f091d990d4f45f1a8d9d87ed2c4058d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4beabe7140e456da89485b989369336 = $(`<div id="html_d4beabe7140e456da89485b989369336" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 10469.0  Buisness Name: Golden Star  Pandemic Assitance:PPP loan </p></div>`)[0];
+            popup_9f091d990d4f45f1a8d9d87ed2c4058d.setContent(html_d4beabe7140e456da89485b989369336);
+        
+
+        marker_ed37a198704e463abee6333cce1ea82e.bindPopup(popup_9f091d990d4f45f1a8d9d87ed2c4058d)
+        ;
+
+        
+    
+    
+            var marker_e2f49df3239a433c9b167b5cbb052db3 = L.marker(
+                [40.8616353, -73.8574655],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_849511ce6b6f4ccfa6fc5f763e008e02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_062a4d42495649a69a687f68c6ea4ce0 = $(`<div id="html_062a4d42495649a69a687f68c6ea4ce0" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 10469.0  Buisness Name: Perla Nails and Spa  Pandemic Assitance:I did apply and did not hear back </p></div>`)[0];
+            popup_849511ce6b6f4ccfa6fc5f763e008e02.setContent(html_062a4d42495649a69a687f68c6ea4ce0);
+        
+
+        marker_e2f49df3239a433c9b167b5cbb052db3.bindPopup(popup_849511ce6b6f4ccfa6fc5f763e008e02)
+        ;
+
+        
+    
+    
+            var marker_b30c1c4867814033b192ea35fb3f2afe = L.marker(
+                [40.82165445, -73.89210845222664],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_321b00279a2d4f1383a1099574b9f47c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6597ea1225644569c54da1a55faa794 = $(`<div id="html_a6597ea1225644569c54da1a55faa794" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 10469.0  Buisness Name: G’s Coffee   Pandemic Assitance:I did apply and did not hear back </p></div>`)[0];
+            popup_321b00279a2d4f1383a1099574b9f47c.setContent(html_a6597ea1225644569c54da1a55faa794);
+        
+
+        marker_b30c1c4867814033b192ea35fb3f2afe.bindPopup(popup_321b00279a2d4f1383a1099574b9f47c)
+        ;
+
+        
+    
+    
+            var marker_ccb2a0a2fac54ee79d4b5a79d1cb6a59 = L.marker(
+                [41.438601399999996, -74.41479586798246],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_eb24a90e24874bd6af29f15cd2a4e07c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd5a0879750f4a4681514ace179cd6e5 = $(`<div id="html_bd5a0879750f4a4681514ace179cd6e5" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 11237.0  Buisness Name: Ann’s roti   Pandemic Assitance:I did apply and did not hear back </p></div>`)[0];
+            popup_eb24a90e24874bd6af29f15cd2a4e07c.setContent(html_bd5a0879750f4a4681514ace179cd6e5);
+        
+
+        marker_ccb2a0a2fac54ee79d4b5a79d1cb6a59.bindPopup(popup_eb24a90e24874bd6af29f15cd2a4e07c)
+        ;
+
+        
+    
+    
+            var marker_7b8a81eb10124f379060c0c513e4aa5b = L.marker(
+                [-26.1764213, 28.0087199],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_f65618e78ce64d9788d6f18518e95761 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14611317bb5e40da9aa7f9248325ac17 = $(`<div id="html_14611317bb5e40da9aa7f9248325ac17" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 11215.0  Buisness Name: G & S electronics   Pandemic Assitance:PPP loan, SBA loan, Economic Disaster Loan </p></div>`)[0];
+            popup_f65618e78ce64d9788d6f18518e95761.setContent(html_14611317bb5e40da9aa7f9248325ac17);
+        
+
+        marker_7b8a81eb10124f379060c0c513e4aa5b.bindPopup(popup_f65618e78ce64d9788d6f18518e95761)
+        ;
+
+        
+    
+    
+            var marker_c44f54bebb6c476491c030769044001b = L.marker(
+                [36.2587609949495, -86.71665132323233],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_d3990d9a3aab418d953bcdfbe1709867 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f512b09229f54ed7bcb10b1dfca4493b = $(`<div id="html_f512b09229f54ed7bcb10b1dfca4493b" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 11385.0  Buisness Name: Groovy smoothie   Pandemic Assitance:SBA loan </p></div>`)[0];
+            popup_d3990d9a3aab418d953bcdfbe1709867.setContent(html_f512b09229f54ed7bcb10b1dfca4493b);
+        
+
+        marker_c44f54bebb6c476491c030769044001b.bindPopup(popup_d3990d9a3aab418d953bcdfbe1709867)
+        ;
+
+        
+    
+    
+            var marker_607a3c7865604b5bb5a3c98e9db89b28 = L.marker(
+                [36.248992713404085, -77.85654832663602],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_765450b4e37646b9a535f6cc578cc5c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_051fa9520b994fd9a613b71876ab4196 = $(`<div id="html_051fa9520b994fd9a613b71876ab4196" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 10013.0  Buisness Name: TiHua & Co  Pandemic Assitance:PPP loan </p></div>`)[0];
+            popup_765450b4e37646b9a535f6cc578cc5c5.setContent(html_051fa9520b994fd9a613b71876ab4196);
+        
+
+        marker_607a3c7865604b5bb5a3c98e9db89b28.bindPopup(popup_765450b4e37646b9a535f6cc578cc5c5)
+        ;
+
+        
+    
+    
+            var marker_b1cdafbd7a934d75a15c5fa47f6b2d78 = L.marker(
+                [41.5598763, -73.0340998],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_986e7b608a95481ca945c835e48d87c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22ec97a4392646bf9d992b774a18e2d5 = $(`<div id="html_22ec97a4392646bf9d992b774a18e2d5" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 11220.0  Buisness Name: Pete's Shanghai  Pandemic Assitance:SBA loan </p></div>`)[0];
+            popup_986e7b608a95481ca945c835e48d87c9.setContent(html_22ec97a4392646bf9d992b774a18e2d5);
+        
+
+        marker_b1cdafbd7a934d75a15c5fa47f6b2d78.bindPopup(popup_986e7b608a95481ca945c835e48d87c9)
+        ;
+
+        
+    
+    
+            var marker_83e943830da94d1fbc1de89615a31abd = L.marker(
+                [42.2491862, -71.1118527],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_9fb8b77f6e16417a95ce945795936a23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_909352a66df544fdbd222c04edea6e9f = $(`<div id="html_909352a66df544fdbd222c04edea6e9f" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 10013.0  Buisness Name: Feel beauty   Pandemic Assitance:PPP loan, SBA loan </p></div>`)[0];
+            popup_9fb8b77f6e16417a95ce945795936a23.setContent(html_909352a66df544fdbd222c04edea6e9f);
+        
+
+        marker_83e943830da94d1fbc1de89615a31abd.bindPopup(popup_9fb8b77f6e16417a95ce945795936a23)
+        ;
+
+        
+    
+    
+            var marker_3461dc94fcb94555bb765b9cc13ab22f = L.marker(
+                [40.86831335, -73.84120102946932],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_909ba656b93542e4a01e55771d728804 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb48118eee4c4bc5a43f0dd9d362bb38 = $(`<div id="html_bb48118eee4c4bc5a43f0dd9d362bb38" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 10469.0  Buisness Name: Frank’s pets store   Pandemic Assitance:I did apply and did not hear back </p></div>`)[0];
+            popup_909ba656b93542e4a01e55771d728804.setContent(html_bb48118eee4c4bc5a43f0dd9d362bb38);
+        
+
+        marker_3461dc94fcb94555bb765b9cc13ab22f.bindPopup(popup_909ba656b93542e4a01e55771d728804)
+        ;
+
+        
+    
+    
+            var marker_14871449cf9c45fe85ab4f36c900d53f = L.marker(
+                [40.6460639, -74.0232487813663],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_610d4c1a33c74236ad921337f439a67e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f37bf5d1fe0b4530b85eb9fcda79840e = $(`<div id="html_f37bf5d1fe0b4530b85eb9fcda79840e" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 11220.0  Buisness Name: Tee’s auto repair   Pandemic Assitance:PPP loan </p></div>`)[0];
+            popup_610d4c1a33c74236ad921337f439a67e.setContent(html_f37bf5d1fe0b4530b85eb9fcda79840e);
+        
+
+        marker_14871449cf9c45fe85ab4f36c900d53f.bindPopup(popup_610d4c1a33c74236ad921337f439a67e)
+        ;
+
+        
+    
+    
+            var marker_9f89dc8928c1484282abf8bad5535bab = L.marker(
+                [54.1444139, -1.5244806],
+                {}
+            ).addTo(map_bf73b1d1091f4b1e940ac06c90338458);
+        
+    
+        var popup_e3e9d44f33d34179a391b6952f9aeb61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_534945dab01a49078c273c40e2074c42 = $(`<div id="html_534945dab01a49078c273c40e2074c42" style="width: 100.0%; height: 100.0%;"><p>Zipcode: 11354.0  Buisness Name: Penny Dry Cleaners/Tailoring  Pandemic Assitance:I did not apply </p></div>`)[0];
+            popup_e3e9d44f33d34179a391b6952f9aeb61.setContent(html_534945dab01a49078c273c40e2074c42);
+        
+
+        marker_9f89dc8928c1484282abf8bad5535bab.bindPopup(popup_e3e9d44f33d34179a391b6952f9aeb61)
+        ;
+
+        
+    
+</script>
