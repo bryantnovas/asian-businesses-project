@@ -68,23 +68,20 @@ def app():
     st.write('We are identifying articles that occur with the top search of Anti-Asian Hate Crime within the last 16 months because Hate Crimes began the top search of Anti-Asian Americans.')
 
     search = gn.search('Anti-Asian Hate Crimes', when='16m')
-    st.write(search)
+
     st.write('Parse through the entries because we want to specifically identify the titles of the loop.')
-    st.write(search['entries'])
 
     st.write('We are storing our entries into a string because our information is in json format. Each line will be represented into a new line and printed within the titles only of our search')
 
     words = ""
     for entry in search['entries']:
         words += entry["title"] + '\n'
-    st.write(str(words))
 
     st.write('Now we are going to take the links of our searches to be able to identify the key words that are asssociated inside of these articles. ')
 
     links = ""
     for entry in search['entries']:
         links += entry["link"] + '\n'
-    st.write(str(links))
 
     st.write('We are installing the wordcloud library so we can take a greater look at the top searches and the common words that were identifed within the titles of the top searches.')
 
@@ -210,7 +207,6 @@ def app():
         text = requests.get(url).text
         for k, _ in x.items():
             x[k] += text.count(k)
-    st.write(x)
 
     st.write('We know turn this dictionary into a dataframe to graph it, and see the occurence of the words.')
     occurence = pd.DataFrame(list(x.items()), columns=[
@@ -242,19 +238,14 @@ def app():
     googled = GoogleNews()
     location = googled.geo_headlines('New York City')
     searches = googled.search('Anti-Asian Hate Crimes', when='4m')
-    st.write(searches)
-
-    st.write(searches['entries'])
 
     results = " "
     for entry in searches['entries']:
         results += entry['title'] + '\n'
-    st.write(str(results))
 
     links_2 = ""
     for entry in search['entries']:
         links_2 += entry['link'] + '\n'
-    st.write(str(links_2))
 
     st.write(
         'We are comparing this amongst the same words that we identified within the last 16 months')
@@ -279,7 +270,6 @@ def app():
     y = {
         i: 0 for i in list_of_words
     }
-    st.write(y)
 
     list_of_urls = [
         'https://www.boston25news.com/news/health/community-leaders-hold-forum-anti-asian-racism/RMU73KFI6VETJCMH2X6ZOZEEJE/',
@@ -358,7 +348,6 @@ def app():
         text = requests.get(url).text
         for k, _ in x.items():
             y[k] += text.count(k)
-    st.write(y)
 
     st.write('Placing the Information into A DataFrame')
 
